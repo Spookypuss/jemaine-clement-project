@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
+    max-height: 900px;
     padding: 200px 20px;
     text-align: center;
 
@@ -16,6 +17,17 @@ body {
 
 .hero h1 {
     font-size: 128px;
+    font-weight: 800;
+}
+
+.hero h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero h3 {
+    font-weight: 24px;
+    font-weight: 800;
 }
 
 @media (max-width: 1135px) {
@@ -27,5 +39,17 @@ body {
 @media (max-width: 870px) {
     .hero h1 {
         font-size: 64px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        max-height: 500px;
+    }
+}
+
+@media (max-width: 330px) {
+    .hero h1 {
+        font-size: 48px;
     }
 }
