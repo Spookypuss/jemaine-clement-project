@@ -1,0 +1,31 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.hero {
+    background-image: linear-gradient(rgba(39, 32, 68, 0.56), rgba(39, 32, 68, 0.56)),
+    url("/src/images/jc-magic-fingers.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 200px 20px;
+    text-align: center;
+
+}
+
+.hero h1 {
+    font-size: 128px;
+}
+
+@media (max-width: 1135px) {
+    .hero h1 {
+        font-size: 96px;
+    }
+}
+
+@media (max-width: 870px) {
+    .hero h1 {
+        font-size: 64px;
+    }
+}
