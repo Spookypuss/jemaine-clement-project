@@ -2,6 +2,19 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+footer {
+    display: block;
+    font-family: monospace;
+    margin: 30px auto 10px;
+    text-align: center;
+}
+
+.grid-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
 .hero {
     background-image: linear-gradient(rgba(39, 32, 68, 0.56), rgba(39, 32, 68, 0.56)),
     url("/src/images/jc-magic-fingers.jpeg");
@@ -28,6 +41,23 @@ body {
 .hero h3 {
     font-weight: 24px;
     font-weight: 800;
+}
+
+.info {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px auto;
+}
+
+.profile-img {
+    border-radius: 20px;
+}
+
+.section-header {
+    border-left: 3px solid #FB5C8D;
+    color: #FB5C8D;
+    padding-left: 5px;
 }
 
 @media (max-width: 1135px) {
