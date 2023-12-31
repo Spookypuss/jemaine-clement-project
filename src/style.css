@@ -43,19 +43,13 @@ section {
     display: block;
     margin: 0 auto;
     max-width: 1200px;
+    padding: 100px 0;
 }
 
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 64px;
-}
-
-
-.grid-item {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
 }
 
 .hero {
@@ -107,18 +101,59 @@ section {
 
 .info {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 64px;
     grid-template-columns: 1fr 1fr;
     margin: 20px auto;
 }
 
+.info h2 {
+    font-size: 48px;
+}
+
+.group h2 {
+    margin: 0 0 32px;
+}
+
+.group p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:26px;
+    margin-bottom: 32px;
+    margin-top: 0;
+    opacity: 0.7;
+}
+
+.learn-more-link {
+    background: #FB5C8D;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    padding: 16px 32px;
+    text-decoration: none;
+    transition: all 0.2 ease-in-out;
+}
+
+.learn-more-link:hover {
+    background: #f17a9e;
+}
+
 .profile-img {
     border-radius: 20px;
+    display: block;
+    margin: 0 auto;
 }
 
 .section-header {
-    border-left: 3px solid #FB5C8D;
+    border-left: 4px solid #FB5C8D;
     color: #FB5C8D;
+    font-size: 16px;
+    letter-spacing: 5px;
+    line-height: 1.5;
+    margin: 80px 0 7px;
     padding-left: 5px;
 }
 
