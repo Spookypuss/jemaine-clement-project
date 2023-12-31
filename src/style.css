@@ -3,15 +3,58 @@ body {
 }
 
 footer {
-    display: block;
-    font-family: monospace;
-    margin: 30px auto 10px;
-    text-align: center;
+    background-image: linear-gradient(rgba(39, 32, 68, 0.9), rgba(39, 32, 68, 0.9)), url("../images/jc-banner-profile.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 100px 0;
 }
+
+footer a {
+    color: #FB5C8D;
+    text-decoration: none;
+}
+
+footer h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    margin: 16px 0;
+}
+
+footer li {
+    margin-bottom: 8px;
+}
+
+footer p {
+    font-family: 'Poppins', sans-serif;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    display: block;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 64px;
+}
+
 
 .grid-item {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
 
@@ -30,7 +73,7 @@ footer {
 .hero a {
     background: #FB5C8D;
     border-radius: 5px;
-    color: white;
+    color: #ffffff;
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
