@@ -169,6 +169,7 @@ section {
 
 .selected-films {
     background: #F9F4FF;
+    background-size: cover;
 }
 
 @media (max-width: 1135px) {
