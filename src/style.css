@@ -46,6 +46,11 @@ section {
     padding: 70px 100px;
 }
 
+.align-center {
+    display: flex;
+    justify-content: center;
+}
+
 .btn {
     background: #FB5C8D;
     border-radius: 5px;
@@ -248,12 +253,12 @@ section {
 
 @media (max-width: 1080px) {
 
-    .content h2 {
+    main h2 {
         font-size: 36px;
         margin-bottom: 12px;
     }
 
-    .content p {
+    main p {
         font-size: 14px;
     }
 
@@ -269,10 +274,6 @@ section {
 
     .btn {
         font-size: 12px;
-    }
-
-    .grid-2-col {
-        grid-gap: 16px;
     }
 
     .hero {
@@ -291,12 +292,8 @@ section {
         font-size: 20px;
     }
 
-    .info {
-        grid-gap: 10px;
-    }
-
-    .profile-img {
-        max-width: 75%;
+    .img-responsive {
+        max-width: 100%;
     }
 
     .section-header {
@@ -337,7 +334,7 @@ section {
     }
 
     .info {
-        grid-gap: 10px;
+        grid-gap: 30px;
     }
 
     .section-header {
