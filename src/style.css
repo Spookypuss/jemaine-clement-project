@@ -236,14 +236,21 @@ section {
 }
 
 .secondary-section h2 {
-    font-size: 48px;
-    font-weight: 700;
-    margin: 0 auto 24px;
     max-width: 60%;
 }
 
-.text-center {
+.secondary-h2 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0 auto 24px;
+    max-width: 80%;
     text-align: center;
+}
+
+.square-embed {
+    aspect-ratio: 1 / 1;
+    border-radius: 20px;
+    width: 100%;
 }
 
 @media (max-width: 1135px) {
@@ -260,12 +267,12 @@ section {
 
 @media (max-width: 1080px) {
 
-    main h2 {
+    .content h2 {
         font-size: 36px;
         margin-bottom: 12px;
     }
 
-    main p {
+    .content p {
         font-size: 14px;
     }
 
@@ -306,7 +313,7 @@ section {
         max-width: 100%;
     }
 
-    .secondary-section h2 {
+    .secondary-h2 {
         font-size: 36px;
         margin-bottom: 12px;
     }
@@ -350,6 +357,10 @@ section {
 
     .info {
         grid-gap: 30px;
+    }
+
+    .secondary-h2 {
+        font-size: 28px;
     }
 
     .section-header {
