@@ -71,7 +71,7 @@ section {
 .card {
     background: #FFFFFF;
     border-radius: 20px;
-    box-shadow: 20px, 20px, 50px, #0705140D;
+    box-shadow: 20px 20px 50px #0705140D;
     margin: 30px 0;
 }
 
@@ -108,7 +108,7 @@ section {
 }
 
 .content {
-    max-width: 90%;
+    max-width: 95%;
 }
 
 .content h2 {
@@ -213,6 +213,13 @@ section {
     margin: 20px auto;
 }
 
+.grid-3-col-card {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px auto;
+}
+
 .section-header {
     border-left: 4px solid #FB5C8D;
     color: #FB5C8D;
@@ -271,9 +278,12 @@ section {
         margin: 12px 0;
     }
 
-
     .btn {
         font-size: 12px;
+    }
+
+    .grid-3-col-card {
+        grid-template-columns: 1fr;
     }
 
     .hero {
@@ -294,6 +304,11 @@ section {
 
     .img-responsive {
         max-width: 100%;
+    }
+
+    .secondary-section h2 {
+        font-size: 36px;
+        margin-bottom: 12px;
     }
 
     .section-header {
