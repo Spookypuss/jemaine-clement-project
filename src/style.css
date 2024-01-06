@@ -296,6 +296,10 @@ td {
     text-decoration: none;
 }
 
+#profile-img {
+    filter: sepia(50%);
+}
+
 @media (max-width: 1135px) {
     .hero h1 {
         font-size: 96px;
