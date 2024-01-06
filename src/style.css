@@ -43,7 +43,25 @@ footer ul {
 section {
     display: block;
     margin: 0 auto;
-    padding: 70px 100px;
+    padding: 50px 100px;
+}
+
+table {
+    border: 1px solid #272044;
+    table-layout: fixed;
+    width: 80%;
+}
+
+th {
+    background: #272044;
+    color: #FFFFFF;
+    border-bottom: 1px solid #272044;
+    padding: 20px;
+    text-align: center;
+}
+
+td {
+  padding: 20px;
 }
 
 .align-center {
@@ -253,6 +271,23 @@ section {
     width: 100%;
 }
 
+.table-contents {
+    overflow-x: auto;
+  }
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    padding-left: 36px;
+}
+
+.text-link {
+    color: #FB5C8D;
+    text-decoration: none;
+}
+
 @media (max-width: 1135px) {
     .hero h1 {
         font-size: 96px;
@@ -343,6 +378,12 @@ section {
     .section-header {
         font-size: 14px;
         margin-top: 30px;
+    }
+}
+
+@media (max-width: 960px) {
+    .ranking-section {
+        display: none;
     }
 }
 
